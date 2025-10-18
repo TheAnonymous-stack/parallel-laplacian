@@ -1,0 +1,2452 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/Users/hypebeast/.rvm/gems/ruby-2.7.6/bin/"
+      - "/Users/hypebeast/.rvm/gems/ruby-2.7.6@global/bin/"
+      - "/Users/hypebeast/.rvm/rubies/ruby-2.7.6/bin/"
+      - "/opt/miniconda3/bin/"
+      - "/opt/miniconda3/condabin/"
+      - "/Users/hypebeast/.nvm/versions/node/v20.18.3/bin/"
+      - "/Users/hypebeast/.gem/bin/"
+      - "/Users/hypebeast/Documents/flutter/bin/"
+      - "/Users/hypebeast/.pyenv/shims/"
+      - "/Users/hypebeast/.pyenv/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.10/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.9/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/opt/X11/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Users/hypebeast/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-arm64/bundled/scripts/noConfigScripts/"
+      - "/Users/hypebeast/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/hypebeast/.rvm/bin/"
+    searched_directories:
+      - "/Users/hypebeast/.rvm/gems/ruby-2.7.6/bin/uname"
+      - "/Users/hypebeast/.rvm/gems/ruby-2.7.6@global/bin/uname"
+      - "/Users/hypebeast/.rvm/rubies/ruby-2.7.6/bin/uname"
+      - "/opt/miniconda3/bin/uname"
+      - "/opt/miniconda3/condabin/uname"
+      - "/Users/hypebeast/.nvm/versions/node/v20.18.3/bin/uname"
+      - "/Users/hypebeast/.gem/bin/uname"
+      - "/Users/hypebeast/Documents/flutter/bin/uname"
+      - "/Users/hypebeast/.pyenv/shims/uname"
+      - "/Users/hypebeast/.pyenv/bin/uname"
+      - "/usr/local/bin/uname"
+      - "/usr/local/sbin/uname"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/uname"
+      - "/Library/Frameworks/Python.framework/Versions/3.10/bin/uname"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/uname"
+      - "/Library/Frameworks/Python.framework/Versions/3.9/bin/uname"
+      - "/System/Cryptexes/App/usr/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/Users/hypebeast/.rvm/gems/ruby-2.7.6/bin"
+        - "/Users/hypebeast/.rvm/gems/ruby-2.7.6@global/bin"
+        - "/Users/hypebeast/.rvm/rubies/ruby-2.7.6/bin"
+        - "/opt/miniconda3/bin"
+        - "/opt/miniconda3/condabin"
+        - "/Users/hypebeast/.nvm/versions/node/v20.18.3/bin"
+        - "/Users/hypebeast/.gem/bin"
+        - "/Users/hypebeast/Documents/flutter/bin"
+        - "/Users/hypebeast/.pyenv/shims"
+        - "/Users/hypebeast/.pyenv/bin"
+        - "/usr/local/bin"
+        - "/usr/local/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.10/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.9/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/hypebeast/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-arm64/bundled/scripts/noConfigScripts"
+        - "/Users/hypebeast/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/usr/local/bin"
+        - "/Users/hypebeast/.rvm/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Darwin - 22.4.0 - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/Users/hypebeast/.rvm/gems/ruby-2.7.6/bin/"
+      - "/Users/hypebeast/.rvm/gems/ruby-2.7.6@global/bin/"
+      - "/Users/hypebeast/.rvm/rubies/ruby-2.7.6/bin/"
+      - "/opt/miniconda3/bin/"
+      - "/opt/miniconda3/condabin/"
+      - "/Users/hypebeast/.nvm/versions/node/v20.18.3/bin/"
+      - "/Users/hypebeast/.gem/bin/"
+      - "/Users/hypebeast/Documents/flutter/bin/"
+      - "/Users/hypebeast/.pyenv/shims/"
+      - "/Users/hypebeast/.pyenv/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.10/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.9/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/opt/X11/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Users/hypebeast/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-arm64/bundled/scripts/noConfigScripts/"
+      - "/Users/hypebeast/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/hypebeast/.rvm/bin/"
+    searched_directories:
+      - "/Users/hypebeast/.rvm/gems/ruby-2.7.6/bin/gmake"
+      - "/Users/hypebeast/.rvm/gems/ruby-2.7.6@global/bin/gmake"
+      - "/Users/hypebeast/.rvm/rubies/ruby-2.7.6/bin/gmake"
+      - "/opt/miniconda3/bin/gmake"
+      - "/opt/miniconda3/condabin/gmake"
+      - "/Users/hypebeast/.nvm/versions/node/v20.18.3/bin/gmake"
+      - "/Users/hypebeast/.gem/bin/gmake"
+      - "/Users/hypebeast/Documents/flutter/bin/gmake"
+      - "/Users/hypebeast/.pyenv/shims/gmake"
+      - "/Users/hypebeast/.pyenv/bin/gmake"
+      - "/usr/local/bin/gmake"
+      - "/usr/local/sbin/gmake"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/gmake"
+      - "/Library/Frameworks/Python.framework/Versions/3.10/bin/gmake"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/gmake"
+      - "/Library/Frameworks/Python.framework/Versions/3.9/bin/gmake"
+      - "/System/Cryptexes/App/usr/bin/gmake"
+      - "/usr/bin/gmake"
+      - "/bin/gmake"
+      - "/usr/sbin/gmake"
+      - "/sbin/gmake"
+      - "/opt/X11/bin/gmake"
+      - "/Library/Apple/usr/bin/gmake"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/gmake"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/gmake"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/gmake"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/gmake"
+      - "/Users/hypebeast/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-arm64/bundled/scripts/noConfigScripts/gmake"
+      - "/Users/hypebeast/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/gmake"
+      - "/Users/hypebeast/.rvm/bin/gmake"
+      - "/Users/hypebeast/.rvm/gems/ruby-2.7.6/bin/make"
+      - "/Users/hypebeast/.rvm/gems/ruby-2.7.6@global/bin/make"
+      - "/Users/hypebeast/.rvm/rubies/ruby-2.7.6/bin/make"
+      - "/opt/miniconda3/bin/make"
+      - "/opt/miniconda3/condabin/make"
+      - "/Users/hypebeast/.nvm/versions/node/v20.18.3/bin/make"
+      - "/Users/hypebeast/.gem/bin/make"
+      - "/Users/hypebeast/Documents/flutter/bin/make"
+      - "/Users/hypebeast/.pyenv/shims/make"
+      - "/Users/hypebeast/.pyenv/bin/make"
+      - "/usr/local/bin/make"
+      - "/usr/local/sbin/make"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/make"
+      - "/Library/Frameworks/Python.framework/Versions/3.10/bin/make"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/make"
+      - "/Library/Frameworks/Python.framework/Versions/3.9/bin/make"
+      - "/System/Cryptexes/App/usr/bin/make"
+    found: "/usr/bin/make"
+    search_context:
+      ENV{PATH}:
+        - "/Users/hypebeast/.rvm/gems/ruby-2.7.6/bin"
+        - "/Users/hypebeast/.rvm/gems/ruby-2.7.6@global/bin"
+        - "/Users/hypebeast/.rvm/rubies/ruby-2.7.6/bin"
+        - "/opt/miniconda3/bin"
+        - "/opt/miniconda3/condabin"
+        - "/Users/hypebeast/.nvm/versions/node/v20.18.3/bin"
+        - "/Users/hypebeast/.gem/bin"
+        - "/Users/hypebeast/Documents/flutter/bin"
+        - "/Users/hypebeast/.pyenv/shims"
+        - "/Users/hypebeast/.pyenv/bin"
+        - "/usr/local/bin"
+        - "/usr/local/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.10/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.9/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/hypebeast/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-arm64/bundled/scripts/noConfigScripts"
+        - "/Users/hypebeast/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/usr/local/bin"
+        - "/Users/hypebeast/.rvm/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake:64 (_cmake_find_compiler)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "C compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cc"
+      - "gcc"
+      - "cl"
+      - "bcc"
+      - "xlc"
+      - "icx"
+      - "clang"
+    candidate_directories:
+      - "/Users/hypebeast/.rvm/gems/ruby-2.7.6/bin/"
+      - "/Users/hypebeast/.rvm/gems/ruby-2.7.6@global/bin/"
+      - "/Users/hypebeast/.rvm/rubies/ruby-2.7.6/bin/"
+      - "/opt/miniconda3/bin/"
+      - "/opt/miniconda3/condabin/"
+      - "/Users/hypebeast/.nvm/versions/node/v20.18.3/bin/"
+      - "/Users/hypebeast/.gem/bin/"
+      - "/Users/hypebeast/Documents/flutter/bin/"
+      - "/Users/hypebeast/.pyenv/shims/"
+      - "/Users/hypebeast/.pyenv/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.10/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.9/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/opt/X11/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Users/hypebeast/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-arm64/bundled/scripts/noConfigScripts/"
+      - "/Users/hypebeast/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/hypebeast/.rvm/bin/"
+    searched_directories:
+      - "/Users/hypebeast/.rvm/gems/ruby-2.7.6/bin/cc"
+      - "/Users/hypebeast/.rvm/gems/ruby-2.7.6@global/bin/cc"
+      - "/Users/hypebeast/.rvm/rubies/ruby-2.7.6/bin/cc"
+      - "/opt/miniconda3/bin/cc"
+      - "/opt/miniconda3/condabin/cc"
+      - "/Users/hypebeast/.nvm/versions/node/v20.18.3/bin/cc"
+      - "/Users/hypebeast/.gem/bin/cc"
+      - "/Users/hypebeast/Documents/flutter/bin/cc"
+      - "/Users/hypebeast/.pyenv/shims/cc"
+      - "/Users/hypebeast/.pyenv/bin/cc"
+      - "/usr/local/bin/cc"
+      - "/usr/local/sbin/cc"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/cc"
+      - "/Library/Frameworks/Python.framework/Versions/3.10/bin/cc"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/cc"
+      - "/Library/Frameworks/Python.framework/Versions/3.9/bin/cc"
+      - "/System/Cryptexes/App/usr/bin/cc"
+    found: "/usr/bin/cc"
+    search_context:
+      ENV{PATH}:
+        - "/Users/hypebeast/.rvm/gems/ruby-2.7.6/bin"
+        - "/Users/hypebeast/.rvm/gems/ruby-2.7.6@global/bin"
+        - "/Users/hypebeast/.rvm/rubies/ruby-2.7.6/bin"
+        - "/opt/miniconda3/bin"
+        - "/opt/miniconda3/condabin"
+        - "/Users/hypebeast/.nvm/versions/node/v20.18.3/bin"
+        - "/Users/hypebeast/.gem/bin"
+        - "/Users/hypebeast/Documents/flutter/bin"
+        - "/Users/hypebeast/.pyenv/shims"
+        - "/Users/hypebeast/.pyenv/bin"
+        - "/usr/local/bin"
+        - "/usr/local/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.10/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.9/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/hypebeast/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-arm64/bundled/scripts/noConfigScripts"
+        - "/Users/hypebeast/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/usr/local/bin"
+        - "/Users/hypebeast/.rvm/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/usr/local/share/cmake/Modules/"
+    found: "/usr/local/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/Users/hypebeast/.rvm/gems/ruby-2.7.6/bin"
+        - "/Users/hypebeast/.rvm/gems/ruby-2.7.6@global/bin"
+        - "/Users/hypebeast/.rvm/rubies/ruby-2.7.6/bin"
+        - "/opt/miniconda3/bin"
+        - "/opt/miniconda3/condabin"
+        - "/Users/hypebeast/.nvm/versions/node/v20.18.3/bin"
+        - "/Users/hypebeast/.gem/bin"
+        - "/Users/hypebeast/Documents/flutter/bin"
+        - "/Users/hypebeast/.pyenv/shims"
+        - "/Users/hypebeast/.pyenv/bin"
+        - "/usr/local/bin"
+        - "/usr/local/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.10/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.9/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/hypebeast/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-arm64/bundled/scripts/noConfigScripts"
+        - "/Users/hypebeast/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/usr/local/bin"
+        - "/Users/hypebeast/.rvm/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is AppleClang, found in:
+        /Users/hypebeast/csc367-local/A2/build/CMakeFiles/4.1.2/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:290 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Detecting C compiler apple sysroot: "/usr/bin/cc" "-E" "apple-sdk.c"
+        # 1 "apple-sdk.c"
+        # 1 "<built-in>" 1
+        # 1 "<built-in>" 3
+        # 384 "<built-in>" 3
+        # 1 "<command line>" 1
+        # 1 "<built-in>" 2
+        # 1 "apple-sdk.c" 2
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 1 3 4
+        # 243 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 3 4
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h" 1 3 4
+        # 165 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h" 3 4
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h" 1 3 4
+        # 166 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 1 3 4
+        # 167 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
+        # 244 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
+        # 2 "apple-sdk.c" 2
+        
+        
+      Found apple sysroot: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/hypebeast/.rvm/gems/ruby-2.7.6/bin/"
+      - "/Users/hypebeast/.rvm/gems/ruby-2.7.6@global/bin/"
+      - "/Users/hypebeast/.rvm/rubies/ruby-2.7.6/bin/"
+      - "/opt/miniconda3/bin/"
+      - "/opt/miniconda3/condabin/"
+      - "/Users/hypebeast/.nvm/versions/node/v20.18.3/bin/"
+      - "/Users/hypebeast/.gem/bin/"
+      - "/Users/hypebeast/Documents/flutter/bin/"
+      - "/Users/hypebeast/.pyenv/shims/"
+      - "/Users/hypebeast/.pyenv/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.10/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.9/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/opt/X11/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Users/hypebeast/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-arm64/bundled/scripts/noConfigScripts/"
+      - "/Users/hypebeast/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/hypebeast/.rvm/bin/"
+    found: "/usr/bin/ar"
+    search_context:
+      ENV{PATH}:
+        - "/Users/hypebeast/.rvm/gems/ruby-2.7.6/bin"
+        - "/Users/hypebeast/.rvm/gems/ruby-2.7.6@global/bin"
+        - "/Users/hypebeast/.rvm/rubies/ruby-2.7.6/bin"
+        - "/opt/miniconda3/bin"
+        - "/opt/miniconda3/condabin"
+        - "/Users/hypebeast/.nvm/versions/node/v20.18.3/bin"
+        - "/Users/hypebeast/.gem/bin"
+        - "/Users/hypebeast/Documents/flutter/bin"
+        - "/Users/hypebeast/.pyenv/shims"
+        - "/Users/hypebeast/.pyenv/bin"
+        - "/usr/local/bin"
+        - "/usr/local/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.10/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.9/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/hypebeast/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-arm64/bundled/scripts/noConfigScripts"
+        - "/Users/hypebeast/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/usr/local/bin"
+        - "/Users/hypebeast/.rvm/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/hypebeast/.rvm/gems/ruby-2.7.6/bin/"
+      - "/Users/hypebeast/.rvm/gems/ruby-2.7.6@global/bin/"
+      - "/Users/hypebeast/.rvm/rubies/ruby-2.7.6/bin/"
+      - "/opt/miniconda3/bin/"
+      - "/opt/miniconda3/condabin/"
+      - "/Users/hypebeast/.nvm/versions/node/v20.18.3/bin/"
+      - "/Users/hypebeast/.gem/bin/"
+      - "/Users/hypebeast/Documents/flutter/bin/"
+      - "/Users/hypebeast/.pyenv/shims/"
+      - "/Users/hypebeast/.pyenv/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.10/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.9/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/opt/X11/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Users/hypebeast/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-arm64/bundled/scripts/noConfigScripts/"
+      - "/Users/hypebeast/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/hypebeast/.rvm/bin/"
+    found: "/usr/bin/ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/Users/hypebeast/.rvm/gems/ruby-2.7.6/bin"
+        - "/Users/hypebeast/.rvm/gems/ruby-2.7.6@global/bin"
+        - "/Users/hypebeast/.rvm/rubies/ruby-2.7.6/bin"
+        - "/opt/miniconda3/bin"
+        - "/opt/miniconda3/condabin"
+        - "/Users/hypebeast/.nvm/versions/node/v20.18.3/bin"
+        - "/Users/hypebeast/.gem/bin"
+        - "/Users/hypebeast/Documents/flutter/bin"
+        - "/Users/hypebeast/.pyenv/shims"
+        - "/Users/hypebeast/.pyenv/bin"
+        - "/usr/local/bin"
+        - "/usr/local/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.10/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.9/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/hypebeast/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-arm64/bundled/scripts/noConfigScripts"
+        - "/Users/hypebeast/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/usr/local/bin"
+        - "/Users/hypebeast/.rvm/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/hypebeast/.rvm/gems/ruby-2.7.6/bin/"
+      - "/Users/hypebeast/.rvm/gems/ruby-2.7.6@global/bin/"
+      - "/Users/hypebeast/.rvm/rubies/ruby-2.7.6/bin/"
+      - "/opt/miniconda3/bin/"
+      - "/opt/miniconda3/condabin/"
+      - "/Users/hypebeast/.nvm/versions/node/v20.18.3/bin/"
+      - "/Users/hypebeast/.gem/bin/"
+      - "/Users/hypebeast/Documents/flutter/bin/"
+      - "/Users/hypebeast/.pyenv/shims/"
+      - "/Users/hypebeast/.pyenv/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.10/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.9/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/opt/X11/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Users/hypebeast/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-arm64/bundled/scripts/noConfigScripts/"
+      - "/Users/hypebeast/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/hypebeast/.rvm/bin/"
+    found: "/usr/bin/strip"
+    search_context:
+      ENV{PATH}:
+        - "/Users/hypebeast/.rvm/gems/ruby-2.7.6/bin"
+        - "/Users/hypebeast/.rvm/gems/ruby-2.7.6@global/bin"
+        - "/Users/hypebeast/.rvm/rubies/ruby-2.7.6/bin"
+        - "/opt/miniconda3/bin"
+        - "/opt/miniconda3/condabin"
+        - "/Users/hypebeast/.nvm/versions/node/v20.18.3/bin"
+        - "/Users/hypebeast/.gem/bin"
+        - "/Users/hypebeast/Documents/flutter/bin"
+        - "/Users/hypebeast/.pyenv/shims"
+        - "/Users/hypebeast/.pyenv/bin"
+        - "/usr/local/bin"
+        - "/usr/local/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.10/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.9/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/hypebeast/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-arm64/bundled/scripts/noConfigScripts"
+        - "/Users/hypebeast/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/usr/local/bin"
+        - "/Users/hypebeast/.rvm/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/hypebeast/.rvm/gems/ruby-2.7.6/bin/"
+      - "/Users/hypebeast/.rvm/gems/ruby-2.7.6@global/bin/"
+      - "/Users/hypebeast/.rvm/rubies/ruby-2.7.6/bin/"
+      - "/opt/miniconda3/bin/"
+      - "/opt/miniconda3/condabin/"
+      - "/Users/hypebeast/.nvm/versions/node/v20.18.3/bin/"
+      - "/Users/hypebeast/.gem/bin/"
+      - "/Users/hypebeast/Documents/flutter/bin/"
+      - "/Users/hypebeast/.pyenv/shims/"
+      - "/Users/hypebeast/.pyenv/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.10/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.9/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/opt/X11/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Users/hypebeast/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-arm64/bundled/scripts/noConfigScripts/"
+      - "/Users/hypebeast/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/hypebeast/.rvm/bin/"
+    found: "/usr/bin/ld"
+    search_context:
+      ENV{PATH}:
+        - "/Users/hypebeast/.rvm/gems/ruby-2.7.6/bin"
+        - "/Users/hypebeast/.rvm/gems/ruby-2.7.6@global/bin"
+        - "/Users/hypebeast/.rvm/rubies/ruby-2.7.6/bin"
+        - "/opt/miniconda3/bin"
+        - "/opt/miniconda3/condabin"
+        - "/Users/hypebeast/.nvm/versions/node/v20.18.3/bin"
+        - "/Users/hypebeast/.gem/bin"
+        - "/Users/hypebeast/Documents/flutter/bin"
+        - "/Users/hypebeast/.pyenv/shims"
+        - "/Users/hypebeast/.pyenv/bin"
+        - "/usr/local/bin"
+        - "/usr/local/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.10/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.9/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/hypebeast/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-arm64/bundled/scripts/noConfigScripts"
+        - "/Users/hypebeast/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/usr/local/bin"
+        - "/Users/hypebeast/.rvm/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/hypebeast/.rvm/gems/ruby-2.7.6/bin/"
+      - "/Users/hypebeast/.rvm/gems/ruby-2.7.6@global/bin/"
+      - "/Users/hypebeast/.rvm/rubies/ruby-2.7.6/bin/"
+      - "/opt/miniconda3/bin/"
+      - "/opt/miniconda3/condabin/"
+      - "/Users/hypebeast/.nvm/versions/node/v20.18.3/bin/"
+      - "/Users/hypebeast/.gem/bin/"
+      - "/Users/hypebeast/Documents/flutter/bin/"
+      - "/Users/hypebeast/.pyenv/shims/"
+      - "/Users/hypebeast/.pyenv/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.10/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.9/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/opt/X11/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Users/hypebeast/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-arm64/bundled/scripts/noConfigScripts/"
+      - "/Users/hypebeast/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/hypebeast/.rvm/bin/"
+    found: "/usr/bin/nm"
+    search_context:
+      ENV{PATH}:
+        - "/Users/hypebeast/.rvm/gems/ruby-2.7.6/bin"
+        - "/Users/hypebeast/.rvm/gems/ruby-2.7.6@global/bin"
+        - "/Users/hypebeast/.rvm/rubies/ruby-2.7.6/bin"
+        - "/opt/miniconda3/bin"
+        - "/opt/miniconda3/condabin"
+        - "/Users/hypebeast/.nvm/versions/node/v20.18.3/bin"
+        - "/Users/hypebeast/.gem/bin"
+        - "/Users/hypebeast/Documents/flutter/bin"
+        - "/Users/hypebeast/.pyenv/shims"
+        - "/Users/hypebeast/.pyenv/bin"
+        - "/usr/local/bin"
+        - "/usr/local/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.10/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.9/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/hypebeast/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-arm64/bundled/scripts/noConfigScripts"
+        - "/Users/hypebeast/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/usr/local/bin"
+        - "/Users/hypebeast/.rvm/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/hypebeast/.rvm/gems/ruby-2.7.6/bin/"
+      - "/Users/hypebeast/.rvm/gems/ruby-2.7.6@global/bin/"
+      - "/Users/hypebeast/.rvm/rubies/ruby-2.7.6/bin/"
+      - "/opt/miniconda3/bin/"
+      - "/opt/miniconda3/condabin/"
+      - "/Users/hypebeast/.nvm/versions/node/v20.18.3/bin/"
+      - "/Users/hypebeast/.gem/bin/"
+      - "/Users/hypebeast/Documents/flutter/bin/"
+      - "/Users/hypebeast/.pyenv/shims/"
+      - "/Users/hypebeast/.pyenv/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.10/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.9/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/opt/X11/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Users/hypebeast/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-arm64/bundled/scripts/noConfigScripts/"
+      - "/Users/hypebeast/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/hypebeast/.rvm/bin/"
+    found: "/usr/bin/objdump"
+    search_context:
+      ENV{PATH}:
+        - "/Users/hypebeast/.rvm/gems/ruby-2.7.6/bin"
+        - "/Users/hypebeast/.rvm/gems/ruby-2.7.6@global/bin"
+        - "/Users/hypebeast/.rvm/rubies/ruby-2.7.6/bin"
+        - "/opt/miniconda3/bin"
+        - "/opt/miniconda3/condabin"
+        - "/Users/hypebeast/.nvm/versions/node/v20.18.3/bin"
+        - "/Users/hypebeast/.gem/bin"
+        - "/Users/hypebeast/Documents/flutter/bin"
+        - "/Users/hypebeast/.pyenv/shims"
+        - "/Users/hypebeast/.pyenv/bin"
+        - "/usr/local/bin"
+        - "/usr/local/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.10/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.9/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/hypebeast/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-arm64/bundled/scripts/noConfigScripts"
+        - "/Users/hypebeast/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/usr/local/bin"
+        - "/Users/hypebeast/.rvm/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/hypebeast/.rvm/gems/ruby-2.7.6/bin/"
+      - "/Users/hypebeast/.rvm/gems/ruby-2.7.6@global/bin/"
+      - "/Users/hypebeast/.rvm/rubies/ruby-2.7.6/bin/"
+      - "/opt/miniconda3/bin/"
+      - "/opt/miniconda3/condabin/"
+      - "/Users/hypebeast/.nvm/versions/node/v20.18.3/bin/"
+      - "/Users/hypebeast/.gem/bin/"
+      - "/Users/hypebeast/Documents/flutter/bin/"
+      - "/Users/hypebeast/.pyenv/shims/"
+      - "/Users/hypebeast/.pyenv/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.10/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.9/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/opt/X11/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Users/hypebeast/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-arm64/bundled/scripts/noConfigScripts/"
+      - "/Users/hypebeast/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/hypebeast/.rvm/bin/"
+    searched_directories:
+      - "/usr/bin/objcopy"
+      - "/Users/hypebeast/.rvm/gems/ruby-2.7.6/bin/objcopy"
+      - "/Users/hypebeast/.rvm/gems/ruby-2.7.6@global/bin/objcopy"
+      - "/Users/hypebeast/.rvm/rubies/ruby-2.7.6/bin/objcopy"
+      - "/opt/miniconda3/bin/objcopy"
+      - "/opt/miniconda3/condabin/objcopy"
+      - "/Users/hypebeast/.nvm/versions/node/v20.18.3/bin/objcopy"
+      - "/Users/hypebeast/.gem/bin/objcopy"
+      - "/Users/hypebeast/Documents/flutter/bin/objcopy"
+      - "/Users/hypebeast/.pyenv/shims/objcopy"
+      - "/Users/hypebeast/.pyenv/bin/objcopy"
+      - "/usr/local/bin/objcopy"
+      - "/usr/local/sbin/objcopy"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/objcopy"
+      - "/Library/Frameworks/Python.framework/Versions/3.10/bin/objcopy"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/objcopy"
+      - "/Library/Frameworks/Python.framework/Versions/3.9/bin/objcopy"
+      - "/System/Cryptexes/App/usr/bin/objcopy"
+      - "/bin/objcopy"
+      - "/usr/sbin/objcopy"
+      - "/sbin/objcopy"
+      - "/opt/X11/bin/objcopy"
+      - "/Library/Apple/usr/bin/objcopy"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/objcopy"
+      - "/Users/hypebeast/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-arm64/bundled/scripts/noConfigScripts/objcopy"
+      - "/Users/hypebeast/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/objcopy"
+      - "/Users/hypebeast/.rvm/bin/objcopy"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/hypebeast/.rvm/gems/ruby-2.7.6/bin"
+        - "/Users/hypebeast/.rvm/gems/ruby-2.7.6@global/bin"
+        - "/Users/hypebeast/.rvm/rubies/ruby-2.7.6/bin"
+        - "/opt/miniconda3/bin"
+        - "/opt/miniconda3/condabin"
+        - "/Users/hypebeast/.nvm/versions/node/v20.18.3/bin"
+        - "/Users/hypebeast/.gem/bin"
+        - "/Users/hypebeast/Documents/flutter/bin"
+        - "/Users/hypebeast/.pyenv/shims"
+        - "/Users/hypebeast/.pyenv/bin"
+        - "/usr/local/bin"
+        - "/usr/local/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.10/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.9/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/hypebeast/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-arm64/bundled/scripts/noConfigScripts"
+        - "/Users/hypebeast/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/usr/local/bin"
+        - "/Users/hypebeast/.rvm/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/hypebeast/.rvm/gems/ruby-2.7.6/bin/"
+      - "/Users/hypebeast/.rvm/gems/ruby-2.7.6@global/bin/"
+      - "/Users/hypebeast/.rvm/rubies/ruby-2.7.6/bin/"
+      - "/opt/miniconda3/bin/"
+      - "/opt/miniconda3/condabin/"
+      - "/Users/hypebeast/.nvm/versions/node/v20.18.3/bin/"
+      - "/Users/hypebeast/.gem/bin/"
+      - "/Users/hypebeast/Documents/flutter/bin/"
+      - "/Users/hypebeast/.pyenv/shims/"
+      - "/Users/hypebeast/.pyenv/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.10/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.9/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/opt/X11/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Users/hypebeast/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-arm64/bundled/scripts/noConfigScripts/"
+      - "/Users/hypebeast/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/hypebeast/.rvm/bin/"
+    searched_directories:
+      - "/usr/bin/readelf"
+      - "/Users/hypebeast/.rvm/gems/ruby-2.7.6/bin/readelf"
+      - "/Users/hypebeast/.rvm/gems/ruby-2.7.6@global/bin/readelf"
+      - "/Users/hypebeast/.rvm/rubies/ruby-2.7.6/bin/readelf"
+      - "/opt/miniconda3/bin/readelf"
+      - "/opt/miniconda3/condabin/readelf"
+      - "/Users/hypebeast/.nvm/versions/node/v20.18.3/bin/readelf"
+      - "/Users/hypebeast/.gem/bin/readelf"
+      - "/Users/hypebeast/Documents/flutter/bin/readelf"
+      - "/Users/hypebeast/.pyenv/shims/readelf"
+      - "/Users/hypebeast/.pyenv/bin/readelf"
+      - "/usr/local/bin/readelf"
+      - "/usr/local/sbin/readelf"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/readelf"
+      - "/Library/Frameworks/Python.framework/Versions/3.10/bin/readelf"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/readelf"
+      - "/Library/Frameworks/Python.framework/Versions/3.9/bin/readelf"
+      - "/System/Cryptexes/App/usr/bin/readelf"
+      - "/bin/readelf"
+      - "/usr/sbin/readelf"
+      - "/sbin/readelf"
+      - "/opt/X11/bin/readelf"
+      - "/Library/Apple/usr/bin/readelf"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/readelf"
+      - "/Users/hypebeast/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-arm64/bundled/scripts/noConfigScripts/readelf"
+      - "/Users/hypebeast/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/readelf"
+      - "/Users/hypebeast/.rvm/bin/readelf"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/hypebeast/.rvm/gems/ruby-2.7.6/bin"
+        - "/Users/hypebeast/.rvm/gems/ruby-2.7.6@global/bin"
+        - "/Users/hypebeast/.rvm/rubies/ruby-2.7.6/bin"
+        - "/opt/miniconda3/bin"
+        - "/opt/miniconda3/condabin"
+        - "/Users/hypebeast/.nvm/versions/node/v20.18.3/bin"
+        - "/Users/hypebeast/.gem/bin"
+        - "/Users/hypebeast/Documents/flutter/bin"
+        - "/Users/hypebeast/.pyenv/shims"
+        - "/Users/hypebeast/.pyenv/bin"
+        - "/usr/local/bin"
+        - "/usr/local/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.10/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.9/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/hypebeast/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-arm64/bundled/scripts/noConfigScripts"
+        - "/Users/hypebeast/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/usr/local/bin"
+        - "/Users/hypebeast/.rvm/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/hypebeast/.rvm/gems/ruby-2.7.6/bin/"
+      - "/Users/hypebeast/.rvm/gems/ruby-2.7.6@global/bin/"
+      - "/Users/hypebeast/.rvm/rubies/ruby-2.7.6/bin/"
+      - "/opt/miniconda3/bin/"
+      - "/opt/miniconda3/condabin/"
+      - "/Users/hypebeast/.nvm/versions/node/v20.18.3/bin/"
+      - "/Users/hypebeast/.gem/bin/"
+      - "/Users/hypebeast/Documents/flutter/bin/"
+      - "/Users/hypebeast/.pyenv/shims/"
+      - "/Users/hypebeast/.pyenv/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.10/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.9/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/opt/X11/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Users/hypebeast/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-arm64/bundled/scripts/noConfigScripts/"
+      - "/Users/hypebeast/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/hypebeast/.rvm/bin/"
+    searched_directories:
+      - "/usr/bin/dlltool"
+      - "/Users/hypebeast/.rvm/gems/ruby-2.7.6/bin/dlltool"
+      - "/Users/hypebeast/.rvm/gems/ruby-2.7.6@global/bin/dlltool"
+      - "/Users/hypebeast/.rvm/rubies/ruby-2.7.6/bin/dlltool"
+      - "/opt/miniconda3/bin/dlltool"
+      - "/opt/miniconda3/condabin/dlltool"
+      - "/Users/hypebeast/.nvm/versions/node/v20.18.3/bin/dlltool"
+      - "/Users/hypebeast/.gem/bin/dlltool"
+      - "/Users/hypebeast/Documents/flutter/bin/dlltool"
+      - "/Users/hypebeast/.pyenv/shims/dlltool"
+      - "/Users/hypebeast/.pyenv/bin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/usr/local/sbin/dlltool"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/dlltool"
+      - "/Library/Frameworks/Python.framework/Versions/3.10/bin/dlltool"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/dlltool"
+      - "/Library/Frameworks/Python.framework/Versions/3.9/bin/dlltool"
+      - "/System/Cryptexes/App/usr/bin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/sbin/dlltool"
+      - "/opt/X11/bin/dlltool"
+      - "/Library/Apple/usr/bin/dlltool"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/dlltool"
+      - "/Users/hypebeast/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-arm64/bundled/scripts/noConfigScripts/dlltool"
+      - "/Users/hypebeast/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/dlltool"
+      - "/Users/hypebeast/.rvm/bin/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/hypebeast/.rvm/gems/ruby-2.7.6/bin"
+        - "/Users/hypebeast/.rvm/gems/ruby-2.7.6@global/bin"
+        - "/Users/hypebeast/.rvm/rubies/ruby-2.7.6/bin"
+        - "/opt/miniconda3/bin"
+        - "/opt/miniconda3/condabin"
+        - "/Users/hypebeast/.nvm/versions/node/v20.18.3/bin"
+        - "/Users/hypebeast/.gem/bin"
+        - "/Users/hypebeast/Documents/flutter/bin"
+        - "/Users/hypebeast/.pyenv/shims"
+        - "/Users/hypebeast/.pyenv/bin"
+        - "/usr/local/bin"
+        - "/usr/local/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.10/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.9/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/hypebeast/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-arm64/bundled/scripts/noConfigScripts"
+        - "/Users/hypebeast/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/usr/local/bin"
+        - "/Users/hypebeast/.rvm/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/hypebeast/.rvm/gems/ruby-2.7.6/bin/"
+      - "/Users/hypebeast/.rvm/gems/ruby-2.7.6@global/bin/"
+      - "/Users/hypebeast/.rvm/rubies/ruby-2.7.6/bin/"
+      - "/opt/miniconda3/bin/"
+      - "/opt/miniconda3/condabin/"
+      - "/Users/hypebeast/.nvm/versions/node/v20.18.3/bin/"
+      - "/Users/hypebeast/.gem/bin/"
+      - "/Users/hypebeast/Documents/flutter/bin/"
+      - "/Users/hypebeast/.pyenv/shims/"
+      - "/Users/hypebeast/.pyenv/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.10/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.9/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/opt/X11/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Users/hypebeast/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-arm64/bundled/scripts/noConfigScripts/"
+      - "/Users/hypebeast/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/hypebeast/.rvm/bin/"
+    searched_directories:
+      - "/usr/bin/addr2line"
+      - "/Users/hypebeast/.rvm/gems/ruby-2.7.6/bin/addr2line"
+      - "/Users/hypebeast/.rvm/gems/ruby-2.7.6@global/bin/addr2line"
+      - "/Users/hypebeast/.rvm/rubies/ruby-2.7.6/bin/addr2line"
+      - "/opt/miniconda3/bin/addr2line"
+      - "/opt/miniconda3/condabin/addr2line"
+      - "/Users/hypebeast/.nvm/versions/node/v20.18.3/bin/addr2line"
+      - "/Users/hypebeast/.gem/bin/addr2line"
+      - "/Users/hypebeast/Documents/flutter/bin/addr2line"
+      - "/Users/hypebeast/.pyenv/shims/addr2line"
+      - "/Users/hypebeast/.pyenv/bin/addr2line"
+      - "/usr/local/bin/addr2line"
+      - "/usr/local/sbin/addr2line"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/addr2line"
+      - "/Library/Frameworks/Python.framework/Versions/3.10/bin/addr2line"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/addr2line"
+      - "/Library/Frameworks/Python.framework/Versions/3.9/bin/addr2line"
+      - "/System/Cryptexes/App/usr/bin/addr2line"
+      - "/bin/addr2line"
+      - "/usr/sbin/addr2line"
+      - "/sbin/addr2line"
+      - "/opt/X11/bin/addr2line"
+      - "/Library/Apple/usr/bin/addr2line"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/addr2line"
+      - "/Users/hypebeast/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-arm64/bundled/scripts/noConfigScripts/addr2line"
+      - "/Users/hypebeast/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/addr2line"
+      - "/Users/hypebeast/.rvm/bin/addr2line"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/hypebeast/.rvm/gems/ruby-2.7.6/bin"
+        - "/Users/hypebeast/.rvm/gems/ruby-2.7.6@global/bin"
+        - "/Users/hypebeast/.rvm/rubies/ruby-2.7.6/bin"
+        - "/opt/miniconda3/bin"
+        - "/opt/miniconda3/condabin"
+        - "/Users/hypebeast/.nvm/versions/node/v20.18.3/bin"
+        - "/Users/hypebeast/.gem/bin"
+        - "/Users/hypebeast/Documents/flutter/bin"
+        - "/Users/hypebeast/.pyenv/shims"
+        - "/Users/hypebeast/.pyenv/bin"
+        - "/usr/local/bin"
+        - "/usr/local/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.10/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.9/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/hypebeast/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-arm64/bundled/scripts/noConfigScripts"
+        - "/Users/hypebeast/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/usr/local/bin"
+        - "/Users/hypebeast/.rvm/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/hypebeast/.rvm/gems/ruby-2.7.6/bin/"
+      - "/Users/hypebeast/.rvm/gems/ruby-2.7.6@global/bin/"
+      - "/Users/hypebeast/.rvm/rubies/ruby-2.7.6/bin/"
+      - "/opt/miniconda3/bin/"
+      - "/opt/miniconda3/condabin/"
+      - "/Users/hypebeast/.nvm/versions/node/v20.18.3/bin/"
+      - "/Users/hypebeast/.gem/bin/"
+      - "/Users/hypebeast/Documents/flutter/bin/"
+      - "/Users/hypebeast/.pyenv/shims/"
+      - "/Users/hypebeast/.pyenv/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.10/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.9/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/opt/X11/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Users/hypebeast/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-arm64/bundled/scripts/noConfigScripts/"
+      - "/Users/hypebeast/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/hypebeast/.rvm/bin/"
+    searched_directories:
+      - "/usr/bin/tapi"
+      - "/Users/hypebeast/.rvm/gems/ruby-2.7.6/bin/tapi"
+      - "/Users/hypebeast/.rvm/gems/ruby-2.7.6@global/bin/tapi"
+      - "/Users/hypebeast/.rvm/rubies/ruby-2.7.6/bin/tapi"
+      - "/opt/miniconda3/bin/tapi"
+      - "/opt/miniconda3/condabin/tapi"
+      - "/Users/hypebeast/.nvm/versions/node/v20.18.3/bin/tapi"
+      - "/Users/hypebeast/.gem/bin/tapi"
+      - "/Users/hypebeast/Documents/flutter/bin/tapi"
+      - "/Users/hypebeast/.pyenv/shims/tapi"
+      - "/Users/hypebeast/.pyenv/bin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/usr/local/sbin/tapi"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/tapi"
+      - "/Library/Frameworks/Python.framework/Versions/3.10/bin/tapi"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/tapi"
+      - "/Library/Frameworks/Python.framework/Versions/3.9/bin/tapi"
+      - "/System/Cryptexes/App/usr/bin/tapi"
+      - "/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/sbin/tapi"
+      - "/opt/X11/bin/tapi"
+      - "/Library/Apple/usr/bin/tapi"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/tapi"
+      - "/Users/hypebeast/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-arm64/bundled/scripts/noConfigScripts/tapi"
+      - "/Users/hypebeast/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi"
+      - "/Users/hypebeast/.rvm/bin/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/hypebeast/.rvm/gems/ruby-2.7.6/bin"
+        - "/Users/hypebeast/.rvm/gems/ruby-2.7.6@global/bin"
+        - "/Users/hypebeast/.rvm/rubies/ruby-2.7.6/bin"
+        - "/opt/miniconda3/bin"
+        - "/opt/miniconda3/condabin"
+        - "/Users/hypebeast/.nvm/versions/node/v20.18.3/bin"
+        - "/Users/hypebeast/.gem/bin"
+        - "/Users/hypebeast/Documents/flutter/bin"
+        - "/Users/hypebeast/.pyenv/shims"
+        - "/Users/hypebeast/.pyenv/bin"
+        - "/usr/local/bin"
+        - "/usr/local/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.10/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.9/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/hypebeast/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-arm64/bundled/scripts/noConfigScripts"
+        - "/Users/hypebeast/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/usr/local/bin"
+        - "/Users/hypebeast/.rvm/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompiler.cmake:54 (find_program)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "c++"
+      - "g++"
+      - "cl"
+      - "bcc"
+      - "icpx"
+      - "icx"
+      - "clang++"
+    candidate_directories:
+      - "/usr/bin/"
+    found: "/usr/bin/c++"
+    search_context:
+      ENV{PATH}:
+        - "/Users/hypebeast/.rvm/gems/ruby-2.7.6/bin"
+        - "/Users/hypebeast/.rvm/gems/ruby-2.7.6@global/bin"
+        - "/Users/hypebeast/.rvm/rubies/ruby-2.7.6/bin"
+        - "/opt/miniconda3/bin"
+        - "/opt/miniconda3/condabin"
+        - "/Users/hypebeast/.nvm/versions/node/v20.18.3/bin"
+        - "/Users/hypebeast/.gem/bin"
+        - "/Users/hypebeast/Documents/flutter/bin"
+        - "/Users/hypebeast/.pyenv/shims"
+        - "/Users/hypebeast/.pyenv/bin"
+        - "/usr/local/bin"
+        - "/usr/local/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.10/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.9/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/hypebeast/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-arm64/bundled/scripts/noConfigScripts"
+        - "/Users/hypebeast/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/usr/local/bin"
+        - "/Users/hypebeast/.rvm/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/local/share/cmake/Modules/"
+    found: "/usr/local/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/Users/hypebeast/.rvm/gems/ruby-2.7.6/bin"
+        - "/Users/hypebeast/.rvm/gems/ruby-2.7.6@global/bin"
+        - "/Users/hypebeast/.rvm/rubies/ruby-2.7.6/bin"
+        - "/opt/miniconda3/bin"
+        - "/opt/miniconda3/condabin"
+        - "/Users/hypebeast/.nvm/versions/node/v20.18.3/bin"
+        - "/Users/hypebeast/.gem/bin"
+        - "/Users/hypebeast/Documents/flutter/bin"
+        - "/Users/hypebeast/.pyenv/shims"
+        - "/Users/hypebeast/.pyenv/bin"
+        - "/usr/local/bin"
+        - "/usr/local/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.10/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.9/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/hypebeast/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-arm64/bundled/scripts/noConfigScripts"
+        - "/Users/hypebeast/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/usr/local/bin"
+        - "/Users/hypebeast/.rvm/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is AppleClang, found in:
+        /Users/hypebeast/csc367-local/A2/build/CMakeFiles/4.1.2/CompilerIdCXX/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:290 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Detecting CXX compiler apple sysroot: "/usr/bin/c++" "-E" "apple-sdk.cpp"
+        # 1 "apple-sdk.cpp"
+        # 1 "<built-in>" 1
+        # 1 "<built-in>" 3
+        # 398 "<built-in>" 3
+        # 1 "<command line>" 1
+        # 1 "<built-in>" 2
+        # 1 "apple-sdk.cpp" 2
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 1 3 4
+        # 243 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 3 4
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h" 1 3 4
+        # 165 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h" 3 4
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h" 1 3 4
+        # 166 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 1 3 4
+        # 167 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
+        # 244 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
+        # 2 "apple-sdk.cpp" 2
+        
+        
+      Found apple sysroot: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/Platform/Darwin.cmake:76 (find_program)"
+      - "/usr/local/share/cmake/Modules/CMakeSystemSpecificInformation.cmake:32 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_INSTALL_NAME_TOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "install_name_tool"
+    candidate_directories:
+      - "/Users/hypebeast/.rvm/gems/ruby-2.7.6/bin/"
+      - "/Users/hypebeast/.rvm/gems/ruby-2.7.6@global/bin/"
+      - "/Users/hypebeast/.rvm/rubies/ruby-2.7.6/bin/"
+      - "/opt/miniconda3/bin/"
+      - "/opt/miniconda3/condabin/"
+      - "/Users/hypebeast/.nvm/versions/node/v20.18.3/bin/"
+      - "/Users/hypebeast/.gem/bin/"
+      - "/Users/hypebeast/Documents/flutter/bin/"
+      - "/Users/hypebeast/.pyenv/shims/"
+      - "/Users/hypebeast/.pyenv/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.10/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.9/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/opt/X11/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Users/hypebeast/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-arm64/bundled/scripts/noConfigScripts/"
+      - "/Users/hypebeast/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/hypebeast/.rvm/bin/"
+    searched_directories:
+      - "/Users/hypebeast/.rvm/gems/ruby-2.7.6/bin/install_name_tool"
+      - "/Users/hypebeast/.rvm/gems/ruby-2.7.6@global/bin/install_name_tool"
+      - "/Users/hypebeast/.rvm/rubies/ruby-2.7.6/bin/install_name_tool"
+      - "/opt/miniconda3/bin/install_name_tool"
+      - "/opt/miniconda3/condabin/install_name_tool"
+      - "/Users/hypebeast/.nvm/versions/node/v20.18.3/bin/install_name_tool"
+      - "/Users/hypebeast/.gem/bin/install_name_tool"
+      - "/Users/hypebeast/Documents/flutter/bin/install_name_tool"
+      - "/Users/hypebeast/.pyenv/shims/install_name_tool"
+      - "/Users/hypebeast/.pyenv/bin/install_name_tool"
+      - "/usr/local/bin/install_name_tool"
+      - "/usr/local/sbin/install_name_tool"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/install_name_tool"
+      - "/Library/Frameworks/Python.framework/Versions/3.10/bin/install_name_tool"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/install_name_tool"
+      - "/Library/Frameworks/Python.framework/Versions/3.9/bin/install_name_tool"
+      - "/System/Cryptexes/App/usr/bin/install_name_tool"
+    found: "/usr/bin/install_name_tool"
+    search_context:
+      ENV{PATH}:
+        - "/Users/hypebeast/.rvm/gems/ruby-2.7.6/bin"
+        - "/Users/hypebeast/.rvm/gems/ruby-2.7.6@global/bin"
+        - "/Users/hypebeast/.rvm/rubies/ruby-2.7.6/bin"
+        - "/opt/miniconda3/bin"
+        - "/opt/miniconda3/condabin"
+        - "/Users/hypebeast/.nvm/versions/node/v20.18.3/bin"
+        - "/Users/hypebeast/.gem/bin"
+        - "/Users/hypebeast/Documents/flutter/bin"
+        - "/Users/hypebeast/.pyenv/shims"
+        - "/Users/hypebeast/.pyenv/bin"
+        - "/usr/local/bin"
+        - "/usr/local/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.10/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.9/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/hypebeast/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-arm64/bundled/scripts/noConfigScripts"
+        - "/Users/hypebeast/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/usr/local/bin"
+        - "/Users/hypebeast/.rvm/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/hypebeast/csc367-local/A2/build/CMakeFiles/CMakeScratch/TryCompile-jj7cTo"
+      binary: "/Users/hypebeast/csc367-local/A2/build/CMakeFiles/CMakeScratch/TryCompile-jj7cTo"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/hypebeast/csc367-local/A2/build/CMakeFiles/CMakeScratch/TryCompile-jj7cTo'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_93f8b/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_93f8b.dir/build.make CMakeFiles/cmTC_93f8b.dir/build
+        Building C object CMakeFiles/cmTC_93f8b.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -arch x86_64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_93f8b.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_93f8b.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_93f8b.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c
+        Apple clang version 14.0.3 (clang-1403.0.22.14.1)
+        Target: x86_64-apple-darwin22.4.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+        clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=13.3 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 857.1 -v -fcoverage-compilation-dir=/Users/hypebeast/csc367-local/A2/build/CMakeFiles/CMakeScratch/TryCompile-jj7cTo -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3 -dependency-file CMakeFiles/cmTC_93f8b.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_93f8b.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/hypebeast/csc367-local/A2/build/CMakeFiles/CMakeScratch/TryCompile-jj7cTo -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -no-opaque-pointers -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_93f8b.dir/CMakeCCompilerABI.c.o -x c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 14.0.3 (clang-1403.0.22.14.1) default target x86_64-apple-darwin22.4.0
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/local/include
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking C executable cmTC_93f8b
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93f8b.dir/link.txt --verbose=1
+        Apple clang version 14.0.3 (clang-1403.0.22.14.1)
+        Target: x86_64-apple-darwin22.4.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 13.0.0 13.3 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -o cmTC_93f8b -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_93f8b.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld  PROJECT:ld64-857.1
+        BUILD 23:13:24 May  7 2023
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+        Library search paths:
+        	/usr/local/lib
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib
+        Framework search paths:
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/
+        /usr/bin/cc  -arch x86_64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_93f8b.dir/CMakeCCompilerABI.c.o -o cmTC_93f8b
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:122 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Effective list of requested architectures (possibly empty)  : ""
+      Effective list of architectures found in the ABI info binary: "x86_64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/local/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        end of search list found
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        implicit include dirs: [/usr/local/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/Users/hypebeast/csc367-local/A2/build/CMakeFiles/CMakeScratch/TryCompile-jj7cTo']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_93f8b/fast]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_93f8b.dir/build.make CMakeFiles/cmTC_93f8b.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_93f8b.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -arch x86_64   -v -Wl -v -MD -MT CMakeFiles/cmTC_93f8b.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_93f8b.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_93f8b.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Apple clang version 14.0.3 (clang-1403.0.22.14.1)]
+        ignore line: [Target: x86_64-apple-darwin22.4.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=13.3 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 857.1 -v -fcoverage-compilation-dir=/Users/hypebeast/csc367-local/A2/build/CMakeFiles/CMakeScratch/TryCompile-jj7cTo -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3 -dependency-file CMakeFiles/cmTC_93f8b.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_93f8b.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/hypebeast/csc367-local/A2/build/CMakeFiles/CMakeScratch/TryCompile-jj7cTo -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -no-opaque-pointers -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_93f8b.dir/CMakeCCompilerABI.c.o -x c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 14.0.3 (clang-1403.0.22.14.1) default target x86_64-apple-darwin22.4.0]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking C executable cmTC_93f8b]
+        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93f8b.dir/link.txt --verbose=1]
+        ignore line: [Apple clang version 14.0.3 (clang-1403.0.22.14.1)]
+        ignore line: [Target: x86_64-apple-darwin22.4.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 13.0.0 13.3 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -o cmTC_93f8b -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_93f8b.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [x86_64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [13.0.0] ==> ignore
+          arg [13.3] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_93f8b] ==> ignore
+          arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_93f8b.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lSystem] ==> lib [System]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a]
+        linker tool for 'C': /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+        Library search paths: [;/usr/local/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib]
+        Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/]
+        remove lib [System]
+        remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+        collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+        collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib]
+        collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks]
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: [/usr/local/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib]
+        implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "-v"
+      @(#)PROGRAM:ld  PROJECT:ld64-857.1
+      BUILD 23:13:24 May  7 2023
+      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+      LTO support using: LLVM version 14.0.3, (clang-1403.0.22.14.1) (static support for 29, runtime is 29)
+      TAPI support using: Apple TAPI version 14.0.3 (tapi-1403.0.5.1)
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/hypebeast/csc367-local/A2/build/CMakeFiles/CMakeScratch/TryCompile-EnrrQM"
+      binary: "/Users/hypebeast/csc367-local/A2/build/CMakeFiles/CMakeScratch/TryCompile-EnrrQM"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/hypebeast/csc367-local/A2/build/CMakeFiles/CMakeScratch/TryCompile-EnrrQM'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e1e82/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_e1e82.dir/build.make CMakeFiles/cmTC_e1e82.dir/build
+        Building CXX object CMakeFiles/cmTC_e1e82.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -arch x86_64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_e1e82.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_e1e82.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_e1e82.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Apple clang version 14.0.3 (clang-1403.0.22.14.1)
+        Target: x86_64-apple-darwin22.4.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+        clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=13.3 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 857.1 -v -fcoverage-compilation-dir=/Users/hypebeast/csc367-local/A2/build/CMakeFiles/CMakeScratch/TryCompile-EnrrQM -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3 -dependency-file CMakeFiles/cmTC_e1e82.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_e1e82.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -stdlib=libc++ -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/hypebeast/csc367-local/A2/build/CMakeFiles/CMakeScratch/TryCompile-EnrrQM -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -no-opaque-pointers -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_e1e82.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 14.0.3 (clang-1403.0.22.14.1) default target x86_64-apple-darwin22.4.0
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/local/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking CXX executable cmTC_e1e82
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1e82.dir/link.txt --verbose=1
+        Apple clang version 14.0.3 (clang-1403.0.22.14.1)
+        Target: x86_64-apple-darwin22.4.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 13.0.0 13.3 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -o cmTC_e1e82 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_e1e82.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld  PROJECT:ld64-857.1
+        BUILD 23:13:24 May  7 2023
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+        Library search paths:
+        	/usr/local/lib
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib
+        Framework search paths:
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/
+        /usr/bin/c++  -arch x86_64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_e1e82.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_e1e82
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:122 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Effective list of requested architectures (possibly empty)  : ""
+      Effective list of architectures found in the ABI info binary: "x86_64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/local/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1]
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        end of search list found
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        implicit include dirs: [/usr/local/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/Users/hypebeast/csc367-local/A2/build/CMakeFiles/CMakeScratch/TryCompile-EnrrQM']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e1e82/fast]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_e1e82.dir/build.make CMakeFiles/cmTC_e1e82.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_e1e82.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -arch x86_64   -v -Wl -v -MD -MT CMakeFiles/cmTC_e1e82.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_e1e82.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_e1e82.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Apple clang version 14.0.3 (clang-1403.0.22.14.1)]
+        ignore line: [Target: x86_64-apple-darwin22.4.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=13.3 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 857.1 -v -fcoverage-compilation-dir=/Users/hypebeast/csc367-local/A2/build/CMakeFiles/CMakeScratch/TryCompile-EnrrQM -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3 -dependency-file CMakeFiles/cmTC_e1e82.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_e1e82.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -stdlib=libc++ -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/hypebeast/csc367-local/A2/build/CMakeFiles/CMakeScratch/TryCompile-EnrrQM -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -no-opaque-pointers -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_e1e82.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 14.0.3 (clang-1403.0.22.14.1) default target x86_64-apple-darwin22.4.0]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_e1e82]
+        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1e82.dir/link.txt --verbose=1]
+        ignore line: [Apple clang version 14.0.3 (clang-1403.0.22.14.1)]
+        ignore line: [Target: x86_64-apple-darwin22.4.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 13.0.0 13.3 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -o cmTC_e1e82 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_e1e82.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [x86_64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [13.0.0] ==> ignore
+          arg [13.3] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_e1e82] ==> ignore
+          arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_e1e82.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lc++] ==> lib [c++]
+          arg [-lSystem] ==> lib [System]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a]
+        linker tool for 'CXX': /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+        Library search paths: [;/usr/local/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib]
+        Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/]
+        remove lib [System]
+        remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+        collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+        collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib]
+        collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks]
+        implicit libs: [c++]
+        implicit objs: []
+        implicit dirs: [/usr/local/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib]
+        implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "-v"
+      @(#)PROGRAM:ld  PROJECT:ld64-857.1
+      BUILD 23:13:24 May  7 2023
+      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+      LTO support using: LLVM version 14.0.3, (clang-1403.0.22.14.1) (static support for 29, runtime is 29)
+      TAPI support using: Apple TAPI version 14.0.3 (tapi-1403.0.5.1)
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/usr/local/share/cmake/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/usr/local/share/cmake/Modules/FindThreads.cmake:97 (check_c_source_compiles)"
+      - "/usr/local/share/cmake/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "CMakeLists.txt:6 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/Users/hypebeast/csc367-local/A2/build/CMakeFiles/CMakeScratch/TryCompile-8bXnnY"
+      binary: "/Users/hypebeast/csc367-local/A2/build/CMakeFiles/CMakeScratch/TryCompile-8bXnnY"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/hypebeast/csc367-local/A2/build/CMakeFiles/CMakeScratch/TryCompile-8bXnnY'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_220e1/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_220e1.dir/build.make CMakeFiles/cmTC_220e1.dir/build
+        Building C object CMakeFiles/cmTC_220e1.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -arch x86_64 -MD -MT CMakeFiles/cmTC_220e1.dir/src.c.o -MF CMakeFiles/cmTC_220e1.dir/src.c.o.d -o CMakeFiles/cmTC_220e1.dir/src.c.o -c /Users/hypebeast/csc367-local/A2/build/CMakeFiles/CMakeScratch/TryCompile-8bXnnY/src.c
+        Linking C executable cmTC_220e1
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_220e1.dir/link.txt --verbose=1
+        /usr/bin/cc  -arch x86_64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_220e1.dir/src.c.o -o cmTC_220e1
+        
+      exitCode: 0
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/FindPython/Support.cmake:2015 (find_program)"
+      - "/usr/local/share/cmake/Modules/FindPython.cmake:706 (include)"
+      - "googletest/googletest/cmake/internal_utils.cmake:263 (find_package)"
+      - "googletest/googletest/CMakeLists.txt:86 (include)"
+    mode: "program"
+    variable: "_Python_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python3.14mu"
+      - "python3.14m"
+      - "python3.14u"
+      - "python3.14"
+      - "python3.14dmu"
+      - "python3.14dm"
+      - "python3.14du"
+      - "python3.14d"
+      - "python3.13mu"
+      - "python3.13m"
+      - "python3.13u"
+      - "python3.13"
+      - "python3.13dmu"
+      - "python3.13dm"
+      - "python3.13du"
+      - "python3.13d"
+      - "python3.12mu"
+      - "python3.12m"
+      - "python3.12u"
+      - "python3.12"
+      - "python3.12dmu"
+      - "python3.12dm"
+      - "python3.12du"
+      - "python3.12d"
+      - "python3.11mu"
+      - "python3.11m"
+      - "python3.11u"
+      - "python3.11"
+      - "python3.11dmu"
+      - "python3.11dm"
+      - "python3.11du"
+      - "python3.11d"
+      - "python3.10mu"
+      - "python3.10m"
+      - "python3.10u"
+      - "python3.10"
+      - "python3.10dmu"
+      - "python3.10dm"
+      - "python3.10du"
+      - "python3.10d"
+      - "python3.9mu"
+      - "python3.9m"
+      - "python3.9u"
+      - "python3.9"
+      - "python3.9dmu"
+      - "python3.9dm"
+      - "python3.9du"
+      - "python3.9d"
+      - "python3.8mu"
+      - "python3.8m"
+      - "python3.8u"
+      - "python3.8"
+      - "python3.8dmu"
+      - "python3.8dm"
+      - "python3.8du"
+      - "python3.8d"
+      - "python3.7mu"
+      - "python3.7m"
+      - "python3.7u"
+      - "python3.7"
+      - "python3.7dmu"
+      - "python3.7dm"
+      - "python3.7du"
+      - "python3.7d"
+      - "python3.6mu"
+      - "python3.6m"
+      - "python3.6u"
+      - "python3.6"
+      - "python3.6dmu"
+      - "python3.6dm"
+      - "python3.6du"
+      - "python3.6d"
+      - "python3.5mu"
+      - "python3.5m"
+      - "python3.5u"
+      - "python3.5"
+      - "python3.5dmu"
+      - "python3.5dm"
+      - "python3.5du"
+      - "python3.5d"
+      - "python3.4mu"
+      - "python3.4m"
+      - "python3.4u"
+      - "python3.4"
+      - "python3.4dmu"
+      - "python3.4dm"
+      - "python3.4du"
+      - "python3.4d"
+      - "python3.3mu"
+      - "python3.3m"
+      - "python3.3u"
+      - "python3.3"
+      - "python3.3dmu"
+      - "python3.3dm"
+      - "python3.3du"
+      - "python3.3d"
+      - "python3.2mu"
+      - "python3.2m"
+      - "python3.2u"
+      - "python3.2"
+      - "python3.2dmu"
+      - "python3.2dm"
+      - "python3.2du"
+      - "python3.2d"
+      - "python3.1mu"
+      - "python3.1m"
+      - "python3.1u"
+      - "python3.1"
+      - "python3.1dmu"
+      - "python3.1dm"
+      - "python3.1du"
+      - "python3.1d"
+      - "python3.0mu"
+      - "python3.0m"
+      - "python3.0u"
+      - "python3.0"
+      - "python3.0dmu"
+      - "python3.0dm"
+      - "python3.0du"
+      - "python3.0d"
+      - "python3"
+      - "python"
+    candidate_directories:
+      - "/opt/miniconda3/bin/"
+      - "/opt/miniconda3/Scripts/"
+      - "/opt/miniconda3/"
+    searched_directories:
+      - "/opt/miniconda3/bin/python3.14mu"
+      - "/opt/miniconda3/bin/python3.14m"
+      - "/opt/miniconda3/bin/python3.14u"
+      - "/opt/miniconda3/bin/python3.14"
+      - "/opt/miniconda3/bin/python3.14dmu"
+      - "/opt/miniconda3/bin/python3.14dm"
+      - "/opt/miniconda3/bin/python3.14du"
+      - "/opt/miniconda3/bin/python3.14d"
+      - "/opt/miniconda3/bin/python3.13mu"
+      - "/opt/miniconda3/bin/python3.13m"
+      - "/opt/miniconda3/bin/python3.13u"
+    found: "/opt/miniconda3/bin/python3.13"
+    search_context:
+      ENV{PATH}:
+        - "/Users/hypebeast/.rvm/gems/ruby-2.7.6/bin"
+        - "/Users/hypebeast/.rvm/gems/ruby-2.7.6@global/bin"
+        - "/Users/hypebeast/.rvm/rubies/ruby-2.7.6/bin"
+        - "/opt/miniconda3/bin"
+        - "/opt/miniconda3/condabin"
+        - "/Users/hypebeast/.nvm/versions/node/v20.18.3/bin"
+        - "/Users/hypebeast/.gem/bin"
+        - "/Users/hypebeast/Documents/flutter/bin"
+        - "/Users/hypebeast/.pyenv/shims"
+        - "/Users/hypebeast/.pyenv/bin"
+        - "/usr/local/bin"
+        - "/usr/local/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.10/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.9/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/hypebeast/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-arm64/bundled/scripts/noConfigScripts"
+        - "/Users/hypebeast/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/usr/local/bin"
+        - "/Users/hypebeast/.rvm/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr"
+        - "/usr/local"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr/local"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_APPBUNDLE_PATH:
+        - "/Users/hypebeast/Applications"
+        - "/Applications"
+        - "/Applications/Xcode.app/Contents/Applications"
+        - "/Applications/Xcode.app/Contents/Developer/Applications"
+...

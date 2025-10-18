@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -arch x86_64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/pgm_creator.dir/pgm_creator.cpp.o -o pgm_creator  libpgm.a

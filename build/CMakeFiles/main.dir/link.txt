@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -arch x86_64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/main.dir/main.cpp.o CMakeFiles/main.dir/very_big_sample.cpp.o CMakeFiles/main.dir/very_tall_sample.cpp.o -o main  liba2_filters.a libpgm.a

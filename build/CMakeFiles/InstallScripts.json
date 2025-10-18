@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/hypebeast/csc367-local/A2/build/cmake_install.cmake",
+		"/Users/hypebeast/csc367-local/A2/build/googletest/cmake_install.cmake",
+		"/Users/hypebeast/csc367-local/A2/build/googletest/googlemock/cmake_install.cmake",
+		"/Users/hypebeast/csc367-local/A2/build/googletest/googletest/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

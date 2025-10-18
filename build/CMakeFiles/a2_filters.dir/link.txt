@@ -1,0 +1,2 @@
+/usr/bin/ar qc liba2_filters.a CMakeFiles/a2_filters.dir/filters.cpp.o
+/usr/bin/ranlib liba2_filters.a
