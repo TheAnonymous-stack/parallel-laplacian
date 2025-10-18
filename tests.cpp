@@ -95,9 +95,6 @@ TEST(filters, laplacian_filter_produces_correct_result_2_1) {
                               builtin_filters[LAPLACIAN_FILTER_3]);
 }
 
-// TODO: add more tests here. Some suggestions:
-// Test a 2x2 image, a prime number dimension image, e.g. 23 x 11.
-// Tests all of the above with different filters.
 int main(int argc, char **argv) {
   ::testing::InitGoogleTest(&argc, argv);
   return RUN_ALL_TESTS();
